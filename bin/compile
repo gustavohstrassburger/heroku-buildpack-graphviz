@@ -43,7 +43,7 @@ install() {
 # needs to be installed. Heroku-16 misses some dependencies in the form of
 # shared libraries, and they must be additonally installed.
 case "$STACK" in
-  heroku-16)
+  heroku-18)
     graphviz_version="2.38.0"
     packages=(graphviz_2.38.0-12ubuntu2_amd64.deb
               libgvc6_2.38.0-12ubuntu2_amd64.deb
